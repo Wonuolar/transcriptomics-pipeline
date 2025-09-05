@@ -1,3 +1,37 @@
+# --- RAW SEQUENCING DATA ---
+*.fastq.gz
+*.fq
+*.fastq
+
+# --- ALIGNMENTS / INTERMEDIATES ---
+*.sam
+*.bam
+*.bai
+*_nohuman.fastq
+*_nohuman_nodecoy.fastq
+*.22bptrim.fastq.gz
+
+# --- LOGS & REPORTS ---
+*_cutadapt.log
+*_toHuman.log
+*_toDecoy.log
+*_toMtb.log
+logs/
+multiqc_reports/
+
+# --- COUNTS / TABLE OUTPUTS ---
+featureCounts.txt
+FEATURECOUNTS_*.txt
+counts/
+
+# --- OS / EDITOR NOISE ---
+.DS_Store
+Thumbs.db
+*.swp
+.ipynb_checkpoints/
+
+
+
 # History files
 .Rhistory
 .Rapp.history
